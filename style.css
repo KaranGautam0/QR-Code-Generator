@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(176, 169, 160);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  border: 1px solid black;
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-block: 10px;
+}
+
+#QR-Generate-btn {
+  padding: 5px;
+  background-color: rgb(50, 88, 155);
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#QR-Generate-btn:hover {
+  background-color: rgb(0, 93, 254);
+}
+#QR-Generate-btn:focus {
+  background-color: rgb(131, 255, 127);
+  color: rgb(255, 255, 255);
+}
+img {
+  width: 150px;
+  border: 1px solid black;
+  padding: 20px;
+  display: none;
+}
